@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" onsubmit="return hello()">
+        Email Id:<input type="text" name="email">
+        <span style="color: red;" id="err"></span>
+        <br>
+        <input type="submit" name="submit" value="click me">
+    </form>
+<script src="validation.js"></script>
+</body>
+</html>
+
+
+<!-- ========================= -->
+<!-- 1 -->
+<!-- <form name="myform" onsubmit="return hello()">
+    User name:<input type="text" name="uname" id="uname">
+    <span style="color: red;" id="err"></span>
+    <br>
+    <input type="submit" name="submit" value="click me">
+</form> -->
+
+<!-- function hello()
+{
+    var uname=document.getElementById("uname").value;
+    if(uname=="")
+    {
+        document.getElementById("err").innerHTML="* Please enter your username !";
+        return false;
+    }
+    if(uname.length<4)
+    {
+        document.getElementById("err").innerHTML="*Length must be in between 4 to 8";
+        return false;
+    }
+    if(uname.length>8)
+    {
+        document.getElementById("err").innerHTML="*Length must be in between 4 to 8";
+        return false;
+    }
+  
+    var pattern=/^[a-zA-Z]/;
+    if(!uname.match(pattern))
+    {
+        document.getElementById("err").innerHTML="*enter only char";
+return false;
+    }
+} -->

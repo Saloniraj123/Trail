@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.maindiv {
+    height: fit-content;
+    width: 100%;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+
+}
+
+.navimg {
+    height: 50px;
+    width: 100px;
+
+    margin-left: 80px;
+}
+
+.navimg img {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar1 {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 102, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px 0px 0px;
+
+}
+
+.searchbar1 input {
+    height: 50px;
+    width: 400px;
+
+}
+
+.login button {
+    height: 50px;
+    width: 150px;
+
+}
+
+.unorder {
+    height: 50px;
+    width: 350px;
+
+    text-decoration: none;
+}
+
+.unorder li {
+    list-style: none;
+
+}
+
+.unorder ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ====== */
+.nextdiv {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.smoll {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+.smoll img {
+    height: 100px;
+    width: 100px;
+}
+
+/* ========= */
+.sc {
+    height: 350px;
+    width: 100%;
+    /* background-color: yellow; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.box_container{
+    height: 400px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   /* background-color: aqua; */
+   background-color: white;
+   align-items: center;
+   /* padding: 2px 0px 0px 0px; */
+}
+.box{
+    height: 300px;
+    width: 300px;
+    /* background-color: yellow; */
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.box a{
+    color: green;
+}
+.box img{
+    height: 80%;
+    width: 80%; 
+}
+.fixd{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+.mini{
+  height: 200px;
+  width: 300px;
+
+}
+.mini img{
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+}
+.fixd button{
+height: 45px;
+width: 150px;
+background-color: rgb(0, 119, 255);
+margin-top: 15px;
+
+}
+.containt{
+    height: fit-content;
+    width: 100%;
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+.containt p{
+    color: gray;
+}
+.containt h4{
+    text-align: start;
+    color: gray;
+}
+/* ================= */
+.detail{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+.six1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.six{
+    height: 300px;
+    width: 250px;
+  
+ 
+}
+.border{
+   border-left: 2px solid gray;
+   height: 200px;
+   /* margin-bottom: 100px; */
+ 
+}
+h4{
+    text-align: center;
+    margin: 15px;
+    color: gray;
+}
+
+a{
+  display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    margin: 15px;
+    color: white;
+}
+.six p{
+    color: white;
+}
+.last{
+    height: 100px;
+    width: 100%;
+   text-align: center;
+    margin-top: 20px;
+}
+.last a{
+  display: inline;
+ 
+}
+
